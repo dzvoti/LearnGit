@@ -17,7 +17,7 @@ format:
         slide-tone: false
         touch: true
         toc: true
-        toc-depth: 1
+        toc-depth: 2
         toc-title: "Contents"
         auto-stretch: true
 
