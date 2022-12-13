@@ -1,6 +1,6 @@
 ---
-title: "GIT and GitHub intergration with R and Rstudio"
-subtitle: "Sutton Bonnington Statistics Group"
+title: "GIT and GitHub"
+subtitle: "and intergration with R and IDEs (e.g. Rstudio)"
 author: "Liberty Mlambo"
 format: 
       revealjs:
@@ -15,16 +15,22 @@ format:
         incremental: false
         slide-tone: false
         touch: false
+        toc: true
+        toc-depth: 1
+        toc-title: "Contents"
 editor: source
 ---
 
-## Why and How we collaborate
+# Introduction
+
+## Why use GIT and GitHub to collaborate?
 
 -   Geographically spaced team
 -   Speed of integrating changes
 -   Different Integrated Development Environment(IDEs) preferences i.e. [RStudio](https://rstudio.com/products/rstudio/download/), [Visual Studio Code](https://code.visualstudio.com/)
--   Data security and compliance with [EU -General - - Data Protection Regulation (GDPR)](https://gdpr-info.eu/)
-![](data/tools.png){fig-align="center"}
+-   Data security and compliance with [EU -General - - Data Protection Regulation (GDPR)](https://gdpr-info.eu/) ![](data/tools.png){fig-align="center"}
+
+# Git
 
 ## Git
 
@@ -60,48 +66,31 @@ editor: source
 :::
 :::
 
-------------------------------------------------------------------------
+# GitHub
 
-::: columns
-::: {.column width="20%"}
-![](data/GitHub-Logo.png)
+## Fremium Repository based
 
 -   Fremium cloud based version control using Git
+-   Repository based (Projects) [![](data/git-repositories-2.png)](https://github.com/dzvoti)
 
--   Repository based (Projects)
-:::
+## Built-in security
 
-::: {.column width="80%"}
-[![](data/git-repositories-2.png)](https://github.com/dzvoti)
-:::
-:::
-
-------------------------------------------------------------------------
-
-::: columns
-::: {.column width="20%"}
-![](data/GitHub-Logo.png)
-
--   Remote collaboration with built-in security
-
-:::
-
-::: {.column width="80%"}
 [![](data/git-repositories-3.png)](https://github.com/dzvoti)
-:::
-:::
 
 ## File History Tracking
+
 [![](data/git-repositories-4.png)](https://github.com/dzvoti)
 
-
 ## Unlimited Public/ Private Repositories
+
 [![](data/git-repositories-5.png)](https://github.com/dzvoti)
 
-## Track issues and task progress 
+## Track issues and task progress
+
 [![](data/git-repositories-6.png)](https://github.com/dzvoti)
 
-## Track issues and task progress 
+## Track issues and task progress
+
 [![](data/git-repositories-7.png)](https://github.com/dzvoti)
 
 ## Lessons learnt
@@ -129,3 +118,47 @@ editor: source
 [![](data/git-repositories-8.png)](https://github.com/dzvoti)
 :::
 :::
+
+# Practical demonstration
+
+## Assumptions and Requirements
+
+Assumptions
+
+-   Computer (Mac, Windows, Linux, etc..) with administrative privileges
+-   Software download and installation experience
+
+Requirements
+
+-   GitHub account
+-   GitHub desktop
+-   Git
+
+## [Github signup](https://github.com/)
+
+[![](data/github-signup.png)](https://github.com/)
+
+## [Github desktop download](https://desktop.github.com/)
+
+[![](data/git-desktop.png)](https://desktop.github.com/)
+
+## [Github desktop documentation](https://docs.github.com/en/desktop)
+
+[![](data/git-docs.png)](https://docs.github.com/en/desktop)
+
+## Git glossary {.scrollable}
+
+| git command  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|----------------------|--------------------------------------------------|
+| `git init`   | `git init` turns any directory into a Git repository. [^1]                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|`git add <path>`|The `git add` command adds new or changed files in your working directory to the Git staging area. ^[[https://github.com/git-guides/git-add#git-add](https://github.com/git-guides/git-add#git-add)]|
+| `git commit` and `git commit message` | `git commit -m "descriptive commit message"` creates a commit, which is like a snapshot of your repository. These commits are snapshots of your entire repository at specific times. You should make new commits often, based around logical units of change. Over time, commits should tell a story of the history of your repository and how it came to be the way that it currently is. Commits include lots of metadata in addition to the contents and message, like the author, timestamp, and more.[^2] |
+
+
+[^1]: [https://github.com/git-guides/git-init#what-does-git-init-do](https://github.com/git-guides/git-init#what-does-git-init-do)
+
+[^2]: [https://github.com/git-guides/git-commit#git-commit](https://github.com/git-guides/git-commit#git-commit)
+
+## [Git](https://git-scm.com/downloads)
+
+[![](data/git-download.png)](https://git-scm.com/downloads)
