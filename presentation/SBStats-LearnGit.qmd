@@ -4,6 +4,9 @@ subtitle: "and intergration with R and IDEs (e.g. Rstudio)"
 author: "Liberty Mlambo"
 format: 
       revealjs:
+        title-slide-attributes:
+          data-background-image: data/Nottingham-logo.png
+          data-background-size: contain
         incremental: true
         logo: data/Nottingham-logo.png
         slide-number: true
@@ -11,13 +14,16 @@ format:
         embed-resources: true
         preview-links: true
         # footer: "Using GIT and GitHub with R and Rstudio"
+        number-sections: true
         multiplex: true
         incremental: false
         slide-tone: false
-        touch: false
+        touch: true
         toc: true
         toc-depth: 1
         toc-title: "Contents"
+        auto-stretch: true
+        
 editor: source
 ---
 
