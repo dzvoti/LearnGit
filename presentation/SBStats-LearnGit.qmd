@@ -20,7 +20,7 @@ format:
         toc-depth: 2
         toc-title: "Contents"
         auto-stretch: true
-        scrollable: true
+        # scrollable: true
 
 editor: source
 ---
