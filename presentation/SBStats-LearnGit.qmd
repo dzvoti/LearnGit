@@ -133,7 +133,7 @@ Requirements
 -   GitHub account
 -   GitHub desktop
 -   Git
-
+s
 ## [Github signup](https://github.com/)
 
 [![](data/github-signup.png)](https://github.com/)
@@ -148,7 +148,7 @@ Requirements
 
 ## Git glossary {.scrollable}
 
-| git command  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| command  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|--------------------------------------------------|
 | `git init`   | `git init` turns any directory into a Git repository. [^1]                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |`git add <path>`|The `git add` command adds new or changed files in your working directory to the Git staging area. ^[[https://github.com/git-guides/git-add#git-add](https://github.com/git-guides/git-add#git-add)]|
