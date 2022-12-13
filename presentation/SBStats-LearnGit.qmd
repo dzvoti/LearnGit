@@ -7,9 +7,10 @@ format:
         incremental: true
         logo: data/Nottingham-logo.png
         slide-number: true
+        institute: "University of Nottingham"
         standalone: true
         embed-resources: true
-        preview-links: true
+        preview-links: false
         # footer: "Using GIT and GitHub with R and Rstudio"
         number-sections: true
         multiplex: true
@@ -17,7 +18,7 @@ format:
         slide-tone: false
         touch: true
         toc: true
-        toc-depth: 2
+        toc-depth: 1
         toc-title: "Contents"
         auto-stretch: true
         # scrollable: true
@@ -166,3 +167,8 @@ Requirements
 ## [Git](https://git-scm.com/downloads)
 
 [![](data/git-download.png)](https://git-scm.com/downloads)
+
+## Further reading
+-  [GitHub Docs](https://docs.github.com/en)
+-  [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+-  [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
