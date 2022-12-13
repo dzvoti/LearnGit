@@ -168,7 +168,9 @@ Requirements
 
 [![](data/git-download.png)](https://git-scm.com/downloads)
 
+# Further reading
 ## Further reading
+
 -  [GitHub Docs](https://docs.github.com/en)
 -  [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 -  [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
