@@ -4,9 +4,6 @@ subtitle: "and intergration with R and IDEs (e.g. Rstudio)"
 author: "Liberty Mlambo"
 format: 
       revealjs:
-        title-slide-attributes:
-          data-background-image: data/Nottingham-logo.png
-          data-background-size: contain
         incremental: true
         logo: data/Nottingham-logo.png
         slide-number: true
@@ -23,7 +20,7 @@ format:
         toc-depth: 1
         toc-title: "Contents"
         auto-stretch: true
-        
+
 editor: source
 ---
 
@@ -139,7 +136,7 @@ Requirements
 -   GitHub account
 -   GitHub desktop
 -   Git
-s
+
 ## [Github signup](https://github.com/)
 
 [![](data/github-signup.png)](https://github.com/)
