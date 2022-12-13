@@ -1,6 +1,6 @@
 ---
 title: "GIT and GitHub"
-subtitle: "and intergration with R and IDEs (e.g. Rstudio)"
+subtitle: "Intergration with R and IDEs (e.g. Rstudio)"
 author: "Liberty Mlambo"
 format: 
       revealjs:
@@ -169,6 +169,7 @@ Requirements
 [![](data/git-download.png)](https://git-scm.com/downloads)
 
 # Further reading
+
 ## Further reading
 
 -  [GitHub Docs](https://docs.github.com/en)
