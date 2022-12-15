@@ -151,7 +151,7 @@ Requirements
 
 [![](data/git-docs.png)](https://docs.github.com/en/desktop)
 
-## Git glossary {.scrollable}
+## [Git glossary](https://docs.github.com/en/get-started/quickstart/github-glossary) {.scrollable}
 
 | command  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------|--------------------------------------------------|
@@ -173,5 +173,8 @@ Requirements
 ## Further reading
 
 -  [GitHub Docs](https://docs.github.com/en)
+-  [GitHub glossary](https://docs.github.com/en/get-started/quickstart/github-glossary)
 -  [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 -  [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
+
+# Questions?
