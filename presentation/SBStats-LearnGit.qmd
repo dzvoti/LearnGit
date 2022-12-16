@@ -151,6 +151,19 @@ Requirements
 
 [![](data/git-docs.png)](https://docs.github.com/en/desktop)
 
+## Resolving RStudio and Git credentials connection Issues
+
+If you experience Git credentials error in RStudio e.g.,
+
+`error: could not find UI helper 'GitHub.UI'`
+
+Chapter 9 of [this book](https://happygitwithr.com/https-pat.html#tldr) has detailed steps on resolving this by creating a token for authenticating your RStudio's access to your GitHub. I summarise these steps below:
+
+-   `usethis::create_github_token()`
+-   generate and copy a personal access token. 
+-   `gitcreds::gitcreds_set()`
+-   paste the token
+
 ## [Git glossary](https://docs.github.com/en/get-started/quickstart/github-glossary) {.scrollable}
 
 | command  | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -195,3 +208,4 @@ Requirements
 -  [Git, GitHub, & GitHub Desktop for beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 
 # Questions?
+
