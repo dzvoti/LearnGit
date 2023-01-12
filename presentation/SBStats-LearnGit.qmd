@@ -154,18 +154,18 @@ Requirements
 ## Resolving RStudio and Git credentials connection Issues
 
 `error: could not find UI helper 'GitHub.UI'`
-
+Chapter 9 of [this book](https://happygitwithr.com/https-pat.html#tldr)
 
 ## RStudio and Git credentials connection {.smaller}
 
 | Action                  | Command                                            |
 |----------------------|--------------------------------------|
-| In Rstudio console type | `usethis::create_github_token()[^Source Chapter 9 of [this book](https://happygitwithr.com/https-pat.html#tldr) ]`                   |
+| In Rstudio console type | `usethis::create_github_token()`                   |
 | In your github account  | `generate and copy  token`                         |
 | In Rstudio console type | `gitcreds::gitcreds_set()`                         |
 | In Rstudio console      | `paste token`                                      |
-| In Rstudio terminal     | `git config user.name "YourGitHubUsername"`        |
-| In Rstudio terminal     | `git config user.email "YourGitHubEmail@here.com"` |
+| In Rstudio terminal     | `git config --global user.name "YourGitHubUsername"`        |
+| In Rstudio terminal     | `git config --global user.email "YourGitHubEmail@here.com"` |
 
 ## [Git glossary](https://docs.github.com/en/get-started/quickstart/github-glossary) {.scrollable}
 

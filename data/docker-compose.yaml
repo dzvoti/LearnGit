@@ -11,4 +11,4 @@ services:
       - "7000:8787"
     volumes:
       - ./RStudioCloud/.rstudio_config:/home/rstudio/.config/rstudio
-      - ./RStudioCloud/Chris-workspace:/home/rstudio/Chris-workspace
+      - ./RStudioCloud/RVirtual-workspace:/home/rstudio/RVirtual-workspace
