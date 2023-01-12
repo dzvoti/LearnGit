@@ -4,7 +4,7 @@ subtitle: "Intergration with R and IDEs (e.g. Rstudio)"
 author: "Liberty Mlambo"
 format: 
       revealjs:
-        incremental: true
+        # incremental: true
         logo: data/Nottingham-logo.png
         slide-number: true
         institute: "University of Nottingham"
@@ -153,16 +153,19 @@ Requirements
 
 ## Resolving RStudio and Git credentials connection Issues
 
-If you experience Git credentials error in RStudio e.g.,
-
 `error: could not find UI helper 'GitHub.UI'`
 
-Chapter 9 of [this book](https://happygitwithr.com/https-pat.html#tldr) has detailed steps on resolving this by creating a token for authenticating your RStudio's access to your GitHub. I summarise these steps below:
 
--   `usethis::create_github_token()`
--   generate and copy a personal access token. 
--   `gitcreds::gitcreds_set()`
--   paste the token
+## RStudio and Git credentials connection {.smaller}
+
+| Action                  | Command                                            |
+|----------------------|--------------------------------------|
+| In Rstudio console type | `usethis::create_github_token()[^Source Chapter 9 of [this book](https://happygitwithr.com/https-pat.html#tldr) ]`                   |
+| In your github account  | `generate and copy  token`                         |
+| In Rstudio console type | `gitcreds::gitcreds_set()`                         |
+| In Rstudio console      | `paste token`                                      |
+| In Rstudio terminal     | `git config user.name "YourGitHubUsername"`        |
+| In Rstudio terminal     | `git config user.email "YourGitHubEmail@here.com"` |
 
 ## [Git glossary](https://docs.github.com/en/get-started/quickstart/github-glossary) {.scrollable}
 
